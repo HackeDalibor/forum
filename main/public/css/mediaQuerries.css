@@ -1,0 +1,40 @@
+/* Footer only : */
+
+@media screen and (max-width: 1300px) {
+    
+    .contenu-footer {
+        width: 700px;
+        flex-wrap: wrap;
+    }
+
+    .block {
+        width: 40%;
+        margin: 0 0;
+    }
+
+    .block:nth-child(1),
+    .block:nth-child(2) {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .contenu-footer {
+        width: 320px;
+    }
+
+    .block {
+        width: 300px;
+    }
+
+    .block:nth-child(1),
+    .block:nth-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .block:nth-child(1) {
+        margin-top: 0;
+    }
+
+}
